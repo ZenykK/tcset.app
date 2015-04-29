@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="androidhive.info.tcset.activity.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:text="@string/title_conference"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:textColor="@color/textColorPrimary"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_below="@id/label"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/place"
+        android:id="@+id/textView"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:gravity="center_horizontal"
+        android:text="@string/date"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/about1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/about2"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/about3"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/textColorSecondary" />
+
+    <!-- PROBLEMS -->
+
+    <TextView
+        android:id="@+id/problems_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:layout_below="@+id/textView5"
+        android:text="@string/problems_header"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginBottom="5dp" />
+
+    <!-- below problem1 and next 17 -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems1"
+        android:layout_below="@+id/problems_header"
+        android:id="@+id/problems1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems2"
+        android:layout_below="@+id/problems1"
+        android:id="@+id/problems2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems3"
+        android:layout_below="@+id/problems2"
+        android:id="@+id/problems3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems4"
+        android:layout_below="@+id/problems3"
+        android:id="@+id/problems4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems5"
+        android:layout_below="@+id/problems4"
+        android:id="@+id/problems5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems6"
+        android:layout_below="@+id/problems5"
+        android:id="@+id/problems6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems7"
+        android:layout_below="@+id/problems6"
+        android:id="@+id/problems7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems8"
+        android:layout_below="@+id/problems7"
+        android:id="@+id/problems8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems9"
+        android:layout_below="@+id/problems8"
+        android:id="@+id/problems9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems10"
+        android:layout_below="@+id/problems9"
+        android:id="@+id/problems10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems11"
+        android:layout_below="@+id/problems10"
+        android:id="@+id/problems11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems12"
+        android:layout_below="@+id/problems11"
+        android:id="@+id/problems12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems13"
+        android:layout_below="@+id/problems12"
+        android:id="@+id/problems13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems14"
+        android:layout_below="@+id/problems13"
+        android:id="@+id/problems14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems15"
+        android:layout_below="@+id/problems14"
+        android:id="@+id/problems15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems16"
+        android:layout_below="@+id/problems15"
+        android:id="@+id/problems16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/problems17"
+        android:layout_below="@+id/problems16"
+        android:id="@+id/problems17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>
+
+</ScrollView>

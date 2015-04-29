@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">TCSET</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_schedule">Shedule</string>
+    <string name="nav_item_speakers">Main Speakers</string>
+    <string name="nav_item_downloads">Downloads</string>
+    <string name="nav_item_gallery">Gallery</string>
+    <string name="nav_item_map">Map</string>
+    <string name="nav_item_contacts">Contact us</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_schedule</item>
+        <item>@string/nav_item_speakers</item>
+        <item>@string/nav_item_downloads</item>
+        <item>@string/nav_item_gallery</item>
+        <item>@string/nav_item_map</item>
+        <item>@string/nav_item_contacts</item>
+    </string-array>
+
+    <string name="title_home">Home</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_mainspeakers">Main Speakers</string>
+    <string name="title_downloads">Downloads</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_map">Map</string>
+    <string name="title_contactus">Contact us</string>
+
+    <!-- home fragment  -->
+
+    <string name="title_conference">“MODERN PROBLEMS OF RADIO ENGINEERING, TELECOMMUNICATIONS AND COMPUTER SCIENCE”</string>
+    <string name="place">Lviv-Slavske, Ukraine</string>
+    <string name="date">February 23 – 26, 2016</string>
+
+    <string name="about1">The main purpose of the conference is presentation of the new scientific results, the new trends in science and technology, and the exchange ideas.</string>
+    <string name="about2">The Organizing Committee of 13th International Conference ТCSET’2016 announces that the conference will take place in the mountain resort Slavske in Lviv region.</string>
+    <string name="about3">The Organizing Committee sincerely invites you and your institution representatives to participate in the conference and visit beautiful Ukrainian Carpathians.</string>
+
+    <string name="problems_header">PROBLEMS:</string>
+    <string name="problems1">1.	Signal and electronic circuits theory.</string>
+    <string name="problems2">2.	Mathematical simulation in radio electronics, communications and computer sciences.</string>
+    <string name="problems3">3.	Antennas and microwave technology.</string>
+    <string name="problems4">4.	Models, algorithms, software and hardware construction means of radio electronic devices and systems.</string>
+    <string name="problems5">5.	Electronics: systems and devices, micro- and nanotechnologies.</string>
+    <string name="problems6">6.	ICT systems and networks.</string>
+    <string name="problems7">7.	Quality, reliability and diagnostics of electronic and information systems and devices.</string>
+    <string name="problems8">8.	Theoretical and algorithmic features of telecommunication networks development.</string>
+    <string name="problems9">9.	Electromagnetic compatibility of radio electronics complexes and systems.</string>
+    <string name="problems10">10.	Information systems security.</string>
+    <string name="problems11">11.	Information processing.</string>
+    <string name="problems12">12.	Biotechnical and medical devices and systems.</string>
+    <string name="problems13">13.	Radar systems of control, detection and object recognition.</string>
+    <string name="problems14">14.	Satellite communication, navigation, positioning systems and monitoring.</string>
+    <string name="problems15">15.	Automation of radio electronic devices designing.</string>
+    <string name="problems16">16.	Computer simulation of electro-technical and electro-energetic systems.</string>
+    <string name="problems17">17.	Information technology in educational process.</string>
+
+
+    <!-- schedule fragment  -->
+
+    <string name="day1_header">23 February</string>
+    <string name="day2_header">24 February</string>
+    <string name="day3_header">25 February</string>
+    <string name="day4_header">26 February</string>
+
+    <string name="table_header1">Time</string>
+    <string name="table_header2">Place</string>
+    <string name="table_header3">Presentation</string>
+
+        <!-- day1  -->
+
+        <string name="tabl_121">2 1</string>
+        <string name="tabl_122">2 2</string>
+        <string name="tabl_123">2 3</string>
+
+        <string name="tabl_131">3 1</string>
+        <string name="tabl_132">3 2</string>
+        <string name="tabl_133">3 3</string>
+
+        <string name="tabl_141">4 1</string>
+        <string name="tabl_142">4 2</string>
+        <string name="tabl_143">4 3</string>
+
+        <!-- day2  -->
+
+        <string name="tabl_221">2 1</string>
+        <string name="tabl_222">2 2</string>
+        <string name="tabl_223">2 3</string>
+
+        <string name="tabl_231">3 1</string>
+        <string name="tabl_232">3 2</string>
+        <string name="tabl_233">3 3</string>
+
+        <string name="tabl_241">4 1</string>
+        <string name="tabl_242">4 2</string>
+        <string name="tabl_243">4 3</string>
+
+
+        <!-- day3  -->
+
+        <string name="tabl_321">2 1</string>
+        <string name="tabl_322">2 1</string>
+        <string name="tabl_323">2 1</string>
+
+        <string name="tabl_331">3 1</string>
+        <string name="tabl_332">3 2</string>
+        <string name="tabl_333">3 3</string>
+
+        <string name="tabl_341">4 1</string>
+        <string name="tabl_342">4 2</string>
+        <string name="tabl_343">4 3</string>
+
+    <!-- contact us fragment  -->
+    <string name="contact_header">TCSET’2016 Organizing Committee, Institute of Telecommunications, Radioelectronics and Electronic Engineering, Lviv Polytechnic National University, Profesorska Str., 2, 79013, Lviv, Ukraine.</string>
+    <string name="contact1">+38 (032) 25 82 420 -</string>
+    <string name="contact2">Leonid Ozirkovskyy</string>
+    <string name="contact3"> +38 (066) 18 86 354, </string>
+    <string name="contact4"> +38 (032) 258-24-44 - </string>
+    <string name="contact5"> Orest Lavriv (international calls).</string>
+    <string name="contact6"> tcset.lp@gmail.com </string>
+
+</resources>

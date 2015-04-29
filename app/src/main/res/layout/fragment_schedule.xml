@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:stretchColumns="2"
+        android:background="#FFFFFF">
+
+        <!-- DAY 1 -->
+
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:text="@string/day1_header"
+                android:layout_span="3"
+                android:padding="18dip"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/textColor"
+                android:focusable="true"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!-- Row 2 with 3 columns -->
+
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/TextView104"
+                android:text="@string/tabl_121"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_gravity="left" />
+            <TextView
+                android:id="@+id/TextView105"
+                android:text="@string/tabl_122"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:focusable="true" />
+            <TextView
+                android:id="@+id/TextView106"
+                android:text="@string/tabl_123"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+        <!-- Row 3 with 3 columns -->
+        <TableRow
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:focusable="true">
+
+            <TextView
+
+                android:text="@string/tabl_131"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:text="@string/tabl_132"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_133"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+        <!-- Row 4 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <TextView
+
+                android:text="@string/tabl_141"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:focusable="true"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:text="@string/tabl_142"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_143"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+        <!-- DAY 2 -->
+
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:text="@string/day2_header"
+                android:layout_span="3"
+                android:padding="18dip"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/textColor"
+                android:focusable="true"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:focusable="true">
+
+            <TextView
+
+                android:text="@string/tabl_221"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left" />
+            <TextView
+
+                android:text="@string/tabl_222"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_223"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+        <!-- Row 3 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+
+                android:text="@string/tabl_231"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_232"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_233"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+        <!-- Row 4 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tableRow3">
+
+            <TextView
+
+                android:text="@string/tabl_241"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_242"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_243"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+
+        <!-- DAY 3 -->
+
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:text="@string/day3_header"
+                android:layout_span="3"
+                android:padding="18dip"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/textColor"
+                android:focusable="true"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:focusable="true">
+
+            <TextView
+
+                android:text="@string/tabl_221"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left" />
+            <TextView
+
+                android:text="@string/tabl_222"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_223"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+        <!-- Row 3 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+
+                android:text="@string/tabl_231"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_232"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_233"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+        <!-- Row 4 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tableRow4">
+
+            <TextView
+
+                android:text="@string/tabl_241"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_242"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_243"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+
+        <!-- DAY 4 -->
+
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:text="@string/day4_header"
+                android:layout_span="3"
+                android:padding="18dip"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/textColor"
+                android:focusable="true"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:focusable="true">
+
+            <TextView
+
+                android:text="@string/tabl_221"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left" />
+            <TextView
+
+                android:text="@string/tabl_222"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_223"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+        <!-- Row 3 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+
+                android:text="@string/tabl_231"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_232"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_233"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+        <!-- Row 4 with 3 columns -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tableRow2">
+
+            <TextView
+
+                android:text="@string/tabl_241"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_242"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:focusable="true" />
+            <TextView
+
+                android:text="@string/tabl_243"
+                android:background="@android:color/white"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:autoText="false"
+                android:focusable="true" />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</ScrollView>
+
+
+
+
